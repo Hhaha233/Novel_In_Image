@@ -9,13 +9,13 @@ https://www.bilibili.com/video/BV1Ai4y1V7rg/
 
 ## 2.用法
 
-### 文字转图片：
+### 文字转图片
 
 ```python
 python nii.py -e xxx.txt
 ```
 
-其中`xxx.txt`是要转换的文本路径。
+其中`xxx.txt`是要转换的文本路径。(记得把文本转化为utf-8编码)
 
 ### 图片转文字
 
@@ -25,12 +25,10 @@ python nii.py -d xxx.bmp
 
 其中`xxx.bmp`是要转换的图片路径。
 
-## 3.注意事项
+##输入/输出
 
-在开始使用之前，请确保您的设备已经安装了Python 3.6或更新版本，和`pillow`库。如果没有安装`pillow`，我给大家提供了一个方便的方式来安装，只需
+输入和输出的文件对应放在"Input"/"Output"文件夹中
 
-```python
-python nii.py -i
-```
+## 4.注意事项
 
-等待安装完成即可。
+在开始使用之前，请确保您的设备已经安装了Python 3.6或更新版本，和`pillow`库。
