@@ -25,7 +25,7 @@ python nii.py -d xxx.bmp
 
 其中`xxx.bmp`是要转换的图片路径。
 
-##输入/输出
+## 输入/输出
 
 输入和输出的文件对应放在"Input"/"Output"文件夹中
 
