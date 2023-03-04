@@ -19,13 +19,13 @@ def encode(text):
     return im
 
 def main(filename: str):
-    with open(filename, encoding="utf-8") as f:
+    with open("./Input/"+filename, encoding="utf-8") as f:
         all_text = f.read()
         
     im = encode(all_text)
-    im.save("{}_layout.bmp".format('.'.join(filename.split('.')[:-1])))
+    im.save("./Output/"+"{}_layout.bmp".format('.'.join(filename.split('.')[:-1])))
 
 if __name__ == '__main__':
-    main('三体全集.txt')
+    main(input("文件名"))
 
 #(index & 0xFF0000) >> 16

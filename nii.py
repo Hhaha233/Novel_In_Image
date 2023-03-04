@@ -42,7 +42,9 @@ if __name__ == '__main__':
     elif len(args) == 3 and args[1] in rds:
         if args[1] == rds[0]:
             enc.main(args[2])
+            print("Done, you can see the result in the Output folder")
         else:
             dec.main(args[2])
+            print("Done, you can see the result in the Output folder")
     else:
         raise_err()
